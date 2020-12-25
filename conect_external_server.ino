@@ -2,12 +2,12 @@
 #include "FirebaseESP8266.h"
 
 //SSID dados da rede
-const char* ssid = "Inacio"; //nome da rede que a placa ira se conectar
-const char* ssidPassword = "5938inacio"; //senha da rede
+const char* ssid = "Nome_da_rede"; //nome da rede que a placa ira se conectar
+const char* ssidPassword = "Senha_da_rede"; //senha da rede
 
 //host
-#define FIREBASE_HOST "https://esp8266-webserver-default-rtdb.firebaseio.com/"
-#define FIREBASE_AUTH "bGM6h2PiFO5fPdPcYD2LWQMKGJUVjvcYM9WIrZqf"
+#define FIREBASE_HOST "https://Server_id.firebaseio.com/" //link de acesso ao servidor
+#define FIREBASE_AUTH "Secret_key" // senha de acesso ao servidor
 
 //define objetos para base de dados
 FirebaseData firebaseData1;
